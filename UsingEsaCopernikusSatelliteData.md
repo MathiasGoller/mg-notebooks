@@ -90,6 +90,11 @@ Information about to write such a query can be found at https://scihub.copernicu
 
 https://scihub.copernicus.eu/userguide/BatchScripting
 
+```
+cd ./$AWS_BATCH_JOB_ID
+curl -JLO -u  $user:$pw $link
+```
+
 
 https://scihub.copernicus.eu/dhus/search?q=(footprint:%22Intersects(-34.5000,148.5000)%22%20AND%20platformname:%22Sentinel-3%22%20AND%20producttype:%22OL_1_EFR___%22%20AND%20creationdate:%20%5bNOW-120DAYS%20TO%20NOW-30DAYS%5d)&rows=100
 
