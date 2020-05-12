@@ -7,6 +7,7 @@ handle high loads of
 * Volume
 * Variety
 * Velocity
+
 (Note that there has been additions to the 3Vs proposed such as Value as
   additioal factor. Yet, we will stick to the original ones as these are
   the most commonly agreed ones)
@@ -14,6 +15,14 @@ When we are talking about volume in the context of *big* data then we mean data
 being larger in size to be handled on a single server. Or in other words,
 we would consider a Peta Byte as big while we could handle a Tera Byte with
 small data solutions.
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
 
 Some consider the hadoop eco system as the solution to cope with all big data
 issues. However, some data intensive applications are by far too big so that
