@@ -298,6 +298,8 @@ Although our sensor readings are quite substantial in size, the index will not.
 Yet, many other NoSQL databases such as MongoDB or Cassandra will be be
 sufficient, too.
 
+![alt text](./CreateDynamoDBTable.png "Create DynamoDB Table Screenshot")
+
 ```json
 {
     "Table": {
